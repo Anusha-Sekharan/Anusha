@@ -1,21 +1,3 @@
-'''import random
-print("Hello welcome to guessing game.\n You have to guess a number between 1 and 100.\n You have 10 chances to guess the number.")
-num_to_guess=random.randint(1,100)
-chances=10
-guess_counter=0
-while guess_counter<chances:
-  guess_counter+=1
-  my_guess=int(input("Enter your gueess"))
-  if my_guess==num_to_guess:
-    print(f"Congratulations.The guessed number is correct. You foundn it in {guess_counter} attempt")
-    break
-  elif my_guess<num_to_guess:
-    print("Your guess is too low!")
-  elif my_guess>num_to-guess:
-    print("Your guess is too high!")
-  elif guess_counter>=num_to_guess:
-    print(f"Sorry you have run out of guesses. The number is {num_to_guess}. BETTER LUCK NEXT TIME!")
-    break'''
 
 import random
 
